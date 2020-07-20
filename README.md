@@ -50,6 +50,6 @@ snakemake --use-singularity --use-conda all
 
 0.8342 AUC on hidden test set, 181/948 on leaderboard.
 
-## License 
+## License 📃
 
 This project is distributed under the  MIT license.
