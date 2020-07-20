@@ -43,6 +43,12 @@ TODO
     └── __init__.py          <- Makes this a python module.
 ```
     
+## Results
+
+0.8342 AUC, 181/948 on leaderboard.
+
 ## License
 
 This project is distributed under the  MIT license.
+
+
