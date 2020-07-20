@@ -22,13 +22,13 @@ sample_sub_url = (
 if __name__ == "__main__":
 
     r = requests.get(train_features_url)
-    with open(os.path.join(RAW_DATA_PATH, "train_features.csv"), "wb") as f:
+    with open(os.path.join(RAW_DATA_PATH, "training_set_features.csv"), "wb") as f:
         f.write(r.content)
 
     r = requests.get(train_labels_url)
-    with open(os.path.join(RAW_DATA_PATH, "train_labels.csv"), "wb") as f:
+    with open(os.path.join(RAW_DATA_PATH, "training_set_labels.csv"), "wb") as f:
         f.write(r.content)
 
     r = requests.get(test_features_url)
-    with open(os.path.join(RAW_DATA_PATH, "test_features.csv"), "wb") as f:
+    with open(os.path.join(RAW_DATA_PATH, "test_set_features.csv"), "wb") as f:
         f.write(r.content)

@@ -3,12 +3,10 @@ name:
 channels:
   - base
 	- conda-forge
-	- bioconda
 dependencies:
 	- jupyter
 	- matplotlib=3.3
 	- pandas=1.0
 	- requests
 	- scikit-learn=0.22
-	- seaborn=0.10
-	- snakemake
+	- seaborn
