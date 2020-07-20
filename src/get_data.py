@@ -20,7 +20,6 @@ sample_sub_url = (
 )
 
 if __name__ == "__main__":
-
     r = requests.get(train_features_url)
     with open(os.path.join(RAW_DATA_PATH, "training_set_features.csv"), "wb") as f:
         f.write(r.content)

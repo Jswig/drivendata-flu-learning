@@ -2,8 +2,8 @@ import pandas as pd
 import os
 from models import get_lr_model
 
-DATA_PATH = "../data/raw"
-PRED_PATH = "../results/predictions"
+DATA_PATH = "data/raw"
+PRED_PATH = "results/predictions"
 
 if __name__ == "__main__":
 

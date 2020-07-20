@@ -9,8 +9,8 @@ import numpy as np
 from sklearn.model_selection import cross_validate
 from models import get_lr_model
 
-DATA_PATH = "../data/raw"
-FIG_PATH = "../output/figures"
+DATA_PATH = "data/raw"
+FIG_PATH = "output/figures"
 
 if __name__ == "__main__":
     mpl.rcParams.update({"figure.autolayout": True, "figure.dpi": 150})
