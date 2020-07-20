@@ -1,11 +1,11 @@
 # Flu Shot Learning
 
+![competition image](https://drivendata-public-assets.s3.amazonaws.com/flu-vaccine.jpg)
+
 Repository for my work on the [Flu Shot Learning](https://www.drivendata.org/competitions/66/flu-shot-learning/) competition on Driven Data.
 Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/)
 
 Work in progress.
-
-![competition image](https://drivendata-public-assets.s3.amazonaws.com/flu-vaccine.jpg)
 
 ## Setup
 
