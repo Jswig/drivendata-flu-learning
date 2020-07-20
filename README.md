@@ -5,6 +5,8 @@ Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/)
 
 Work in progress.
 
+![competition image](https://drivendata-public-assets.s3.amazonaws.com/flu-vaccine.jpg)
+
 ## Setup
 
 This is only necessary if you intend to experiment with or modify
