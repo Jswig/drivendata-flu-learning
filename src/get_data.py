@@ -1,7 +1,7 @@
 import requests
 import os
 
-RAW_DATA_PATH = "../../data/raw/"
+RAW_DATA_PATH = "../data/raw/"
 
 train_features_url = (
     "https://s3.amazonaws.com/drivendata-prod/data/66/public/training_set_features.csv"
