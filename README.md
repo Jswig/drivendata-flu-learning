@@ -1,7 +1,5 @@
 # Flu Shot Learning
 
-*Anders Poirel, 16/07/2020*
-
 Repository for my work on the [Flu Shot Learning](https://www.drivendata.org/competitions/66/flu-shot-learning/) competition on Driven Data.
 Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/)
 
