@@ -6,15 +6,11 @@ Repository for my work on the [Flu Shot Learning](https://www.drivendata.org/com
 
 ## Setup
 
-
 ### For running on local OS
 
 Create a conda environment with all the required packages: 
 ```sh
 conda env create -f environment.yml
-```
-Switch to the new environment:
-```sh
 conda activate flu-shot-learning
 ```
 
@@ -23,6 +19,10 @@ conda activate flu-shot-learning
 ```sh
 docker build .
 ```
+
+## Reproducing the results
+
+TODO
 
 ## Project structure
 ```
