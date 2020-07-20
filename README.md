@@ -19,9 +19,15 @@ conda env create -f environment.yml
 
 ## Reproducing the results
 
+### On local OS
 In this directory
 ```sh
-snakemake --use-conda
+snakemake --use-conda all
+```
+
+### On Singularity (recommended)
+```
+snakemake --use-singularity --use-conda all
 ```
 
 ## Project structure
