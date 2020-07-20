@@ -1,7 +1,7 @@
 name:
-	flu-shot-learning
+  flu-shot-learning
 channels:
-	- base
+  - base
 	- conda-forge
 	- bioconda
 dependencies:

@@ -9,38 +9,36 @@ Work in progress.
 
 ## Setup
 
-### For running on local OS
+This is only necessary if you intend to experiment with or modify
+the code
+
+### For experimenting on local OS
 
 Create a conda environment with all the required packages: 
 ```sh
 conda env create -f environment.yml
-conda activate flu-shot-learning
-```
-
-### For running on a Docker container (recommended)
-
-```sh
-docker build .
 ```
 
 ## Reproducing the results
 
-TODO
+In this directory
+```sh
+snakemake
+```
 
 ## Project structure
 ```
 ├── environment.yml          <- The file defining the conda Python environmnet. 
-├── Dockerfile               <- The file definining the container environment
-├── Snakefile                <- Definition of the full workflow for reproducing the analysis
+├── Snakefile                <- Definition of the full workflow for reproducing the analysis.
 ├── LICENSE                                 
-├── README.md                <- The top-level README
+├── README.md                <- The top-level README.
 ├── data
 │   ├── processed            <- The final, canonical data sets for modeling.
 │   └── raw                  <- The original, immutable data dump.
 ├── output             
 |   ├── models               <- Serialized models, predictions, model summaries.
-|   └── visualization        <- Graphics created during analysis.
-├── reports                  <- Generated analysis as HTML, PDF, LaTeX, etc.
+|   └── figures              <- Graphics created during analysis.
+├── paper                    <- Generated analysis as PDF, LaTeX.
 └── src                      <- Source code for this project.
     ├── notebooks            <- Jupyter notebooks.
     └── __init__.py          <- Makes this a python module.
