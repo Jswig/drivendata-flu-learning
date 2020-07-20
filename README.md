@@ -1,4 +1,4 @@
-# Flu Shot Learning
+# Driven Data: Flu Shot Learning
 
 ![competition image](https://drivendata-public-assets.s3.amazonaws.com/flu-vaccine.jpg)
 
