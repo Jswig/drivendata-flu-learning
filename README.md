@@ -29,10 +29,9 @@ TODO
 
 ## Project structure
 ```
-├── environment.yml          <- The file defining the conda Python environmnet. 
+├── environment.yml          <- The file defining the conda Python environment 
 ├── Dockerfile               <- The file definining the container environment
-├── Snakefile                <- Definition of the full workflow for reproducing the analysis
-├── LICENSE                                 
+\├── LICENSE                                 
 ├── README.md                <- The top-level README
 ├── data
 │   ├── processed            <- The final, canonical data sets for modeling.
