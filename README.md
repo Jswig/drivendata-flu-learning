@@ -21,7 +21,7 @@ conda env create -f environment.yml
 
 In this directory
 ```sh
-snakemake
+snakemake --use-conda
 ```
 
 ## Project structure
