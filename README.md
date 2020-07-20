@@ -3,7 +3,7 @@
 Repository for my work on the [Flu Shot Learning](https://www.drivendata.org/competitions/66/flu-shot-learning/) competition on Driven Data.
 Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/). Work in progress.
 
-## Setup ⚙
+## ⚙ Setup 
 
 This is only necessary if you intend to experiment with or modify
 the code
@@ -15,7 +15,7 @@ Create a conda environment with all the required packages:
 conda env create -f environment.yml
 ```
 
-## Reproducing the results ♻
+## ♻ Reproducing the results 
 
 ### On local OS
 In this directory
@@ -28,7 +28,7 @@ snakemake --use-conda all
 snakemake --use-singularity --use-conda all
 ```
 
-## Project structure 📁
+## 📁 Project structure 
 ```
 ├── environment.yml          <- The file defining the conda Python environmnet. 
 ├── Snakefile                <- Definition of the full workflow for reproducing the analysis.
@@ -46,10 +46,10 @@ snakemake --use-singularity --use-conda all
     └── __init__.py          <- Makes this a python module.
 ```
     
-## Results 🏆
+## 🏆  Results 
 
 0.8342 AUC on hidden test set, 181/948 on leaderboard.
 
-## License 📃
+## 📃 License 
 
 This project is distributed under the  MIT license.
