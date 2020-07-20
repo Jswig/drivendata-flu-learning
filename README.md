@@ -3,6 +3,9 @@
 *Anders Poirel, 16/07/2020*
 
 Repository for my work on the [Flu Shot Learning](https://www.drivendata.org/competitions/66/flu-shot-learning/) competition on Driven Data.
+Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/)
+
+Work in progress.
 
 ## Setup
 
@@ -45,10 +48,8 @@ TODO
     
 ## Results
 
-0.8342 AUC, 181/948 on leaderboard.
+0.8342 AUC on hidden test set, 181/948 on leaderboard.
 
 ## License
 
 This project is distributed under the  MIT license.
-
-
