@@ -51,9 +51,10 @@ snakemake --use-singularity --use-conda all
     
 ## 🏆  Results 
 
-- ~~0.8342 AUC on hidden test set, 181/948 on leaderboard.~~
-- ~~0.8462 AUC on hidden test set, 133/953 on leaderboard.~~
-- 0.8473 AUC on hidden test set, 130/954 on leaderboard.
+- ~~0.8342 AUC on hidden test set, 181/948 on leaderboard~~ (baseline LR)
+- ~~0.8462 AUC on hidden test set, 133/953 on leaderboard~~ (tuned random forest)
+- ~~0.8473 AUC on hidden test set, 130/953 on leaderboard.~~ (xgboost baseline)
+- 0.8530 AUC on hidden test set, 112/953 on leaderboard (moderately tuned xgboost)
 
 ## 📃 License 
 
