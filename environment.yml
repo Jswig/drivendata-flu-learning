@@ -2,11 +2,12 @@ name:
   flu-shot-learning
 channels:
   - base
-	- conda-forge
+  - conda-forge
 dependencies:
-	- jupyter
-	- matplotlib=3.3
-	- pandas=1.0
-	- requests
-	- scikit-learn=0.22
-	- seaborn
+  - jupyter
+  - matplotlib=3.3
+  - pandas=1.0
+  - requests
+  - optuna=1.5
+  - scikit-learn=0.23
+  - seaborn

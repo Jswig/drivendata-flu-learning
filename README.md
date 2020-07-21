@@ -5,11 +5,14 @@ Driven Data profile: [apoirel](https://www.drivendata.org/users/apoirel/). Work 
 
 ## ⚙ Setup 
 
-This is only necessary if you intend to experiment with or modify
-the code
+Requirements
+- `snakemake`
+- `conda`
 
 ### For experimenting on local OS
 
+This is only necessary if you intend to experiment with or modify
+the code.
 Create a conda environment with all the required packages: 
 ```sh
 conda env create -f environment.yml
@@ -48,8 +51,10 @@ snakemake --use-singularity --use-conda all
     
 ## 🏆  Results 
 
-0.8342 AUC on hidden test set, 181/948 on leaderboard.
+- ~~0.8342 AUC on hidden test set, 181/948 on leaderboard.~~
+- ~~0.8462 AUC on hidden test set, 133/953 on leaderboard.~~
+- 0.8473 AUC on hidden test set, 130/954 on leaderboard.
 
 ## 📃 License 
 
-This project is distributed under the  MIT license.
+This project is distributed under the  [MIT license](https://github.com/Jswig/drivendata-flu-learning/blob/master/LICENSE).
