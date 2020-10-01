@@ -56,6 +56,8 @@ snakemake --use-singularity --use-conda all
 - ~~0.8473 AUC on hidden test set, 130/953 on leaderboard.~~ (xgboost baseline)
 - 0.8530 AUC on hidden test set, 112/953 on leaderboard (moderately tuned xgboost)
 
+Todo: refactor notebooks code for the last 2 into proper python scripts.
+
 ## 📃 License 
 
 This project is distributed under the  [MIT license](https://github.com/Jswig/drivendata-flu-learning/blob/master/LICENSE).
